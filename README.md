@@ -6,12 +6,16 @@ others.
 
 > [wikipedia.org/wiki/MediaWiki](https://en.wikipedia.org/wiki/MediaWiki)
 
-# Versions
+## Versions
 
 - `1.28-alpine` - Built on Alpine linux running PHP 5.6
 - `1.28-php` - Built on the official PHP 7.0 apache image
 
-# How to use this image
+## Repo for Docker Files
+
+https://github.com/lfkeitel/mediawiki-docker
+
+## How to use this image
 
     docker run --name some-mediawiki --link some-mysql:mysql -d lfkeitel/mediawiki
 
